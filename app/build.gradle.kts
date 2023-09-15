@@ -64,13 +64,8 @@ android {
         resources.pickFirsts.add("lib/*/libGNaviData.so")
         resources.pickFirsts.add("lib/*/libGNaviMap.so")
         resources.pickFirsts.add("lib/*/libGNaviSearch.so")
-        resources.pickFirsts.add("lib/*/libDJIFlySafeCore.so")
-        resources.pickFirsts.add("lib/*/libdjifs_jni.so")
-        resources.pickFirsts.add("lib/*/libsfjni.so")
-        resources.pickFirsts.add("lib/*/libDJIFlySafeCore.so")
 
         packaging.resources.excludes.add("ETA-INF/proguard/okhttp3.pro")
-        packaging.resources.excludes.add("META-INF/rxjava.properties")
         packaging.resources.excludes.add("assets/location_map_gps_locked.png")
         packaging.resources.excludes.add("assets/location_map_gps_3d.png")
     }
